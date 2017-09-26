@@ -1,4 +1,4 @@
-# "Project #1 - MTA Turnstile Data Analysis"
+# Project \#1 - MTA Turnstile Data Analysis
 ---
 
 Our first project at the Metis Data Science Bootcamp involved analyzing turnstile entry/exit data for the NYC subway system to optimize canvasser placement in order to promote an upcoming event.
