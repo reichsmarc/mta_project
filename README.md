@@ -52,7 +52,7 @@ We used 18 weeks of historical MTA turnstile data (available [here](http://web.m
 
 With the data cleaned, we bucketed records into overlapping time blocks of *six* hours which normalized most of the timestamp issues mentioned in \#2 above. This allowed us to arrive at the below ranking of station/time block combinations.
 
-##### Ranked Ridership by Time Block and Subway Station #####
+#### Ranked Ridership by Time Block and Subway Station ####
 ![Ranked Ridership by Time Block and Subway Station](https://github.com/reichsmarc/reichsmarc.github.io/blob/master/images/relativeridership.png?raw=true)
 
 With this chart, WomenTechWomenYes will be able to efficiently allocate their street teams by time and location to maximize exposure and the potential of reaching the right audience with their canvassing efforts.
