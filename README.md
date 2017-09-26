@@ -32,14 +32,13 @@ WomenTechWomenYes mentioned in the prompt that canvassing teams in prior years w
 We used *Built in NYC*'s [list of the top 50 NYC startups](http://www.builtinnyc.com/2017/01/06/50-new-york-startups-watch-2017) as a proxy for the top tech employers in New York, starting by locating the latitude and longitude for each based on their addresses.
 
 ### Step 2: Mapping Companies & Constraining Search Area
-##### Top 50 Startups, 2017; *Built in NYC* (via *gmaps*) #####
-
+#### Top 50 Startups, 2017; *Built in NYC* (via *gmaps*) ####
 ![Built in NYC - Top 50 Startups, 2017](https://github.com/reichsmarc/reichsmarc.github.io/blob/master/images/companymap.png?raw=true)
 
 Our team used the *gmaps* module in Python to plot the tech employers on a map so we could determine appropriate geographical boundaries for our subway stop search. As you can see in the graphic, most of these employers are located in the area between 14th and 42nd Streets as would be expected given that the Flatiron District is the original hub of the tech scene in New York.
 
 ### Step 3: Mapping Subway Stops
-##### Stations Between 14th and 42nd Streets vs. Built in NYC's Top 50 Startups (via *gmaps*)##### 
+#### Stations Between 14th and 42nd Streets vs. Built in NYC's Top 50 Startups (via *gmaps*) #### 
 ![Stations Between 14th and 42nd Street (green) vs. Built in NYC's Top 50 Startups 2017 (blue)](https://github.com/reichsmarc/reichsmarc.github.io/blob/master/images/subwaycompanymap.png?raw=true)
 
 We used the same approach to map the subway stops within our search area, shown in green above with employers in blue.
