@@ -39,8 +39,7 @@ We used *Built in NYC*'s [list of the top 50 NYC startups](http://www.builtinnyc
 Our team used the *gmaps* module in Python to plot the tech employers on a map so we could determine appropriate geographical boundaries for our subway stop search. As you can see in the graphic, most of these employers are located in the area between 14th and 42nd Streets as would be expected given that the Flatiron District is the original hub of the tech scene in New York.
 
 ### Step 3: Mapping Subway Stops
-##### Stations Between 14th and 42nd Streets vs. Built in NYC's Top 50 Startups ##### 
-###### via gmaps ######  
+##### Stations Between 14th and 42nd Streets vs. Built in NYC's Top 50 Startups (via *gmaps*)##### 
 ![Stations Between 14th and 42nd Street (green) vs. Built in NYC's Top 50 Startups 2017 (blue)](https://github.com/reichsmarc/reichsmarc.github.io/blob/master/images/subwaycompanymap.png?raw=true)
 
 We used the same approach to map the subway stops within our search area, shown in green above with employers in blue.
@@ -52,9 +51,7 @@ We used 18 weeks of historical MTA turnstile data (available [here](http://web.m
 1. An even larger number of records had turnstiles which were counting backwards, or registering zero riders over a given time period.
 1. More records, still, had very low day-over-day rider counts which would defy intuition (for example, a turnstile at Grand Central with 11 entries in a single day).
 
-Fortunately, filtering out stations not in the relevant geographical area significantly reduced the number of occurences of these issues in the data. We set a maximum and minimum ridership bound and manually classified further outliers based on the standard test of record +/- 1.5 x [interquartile range].
-
-With the data cleaned, we bucketed records into overlapping time blocks of *six* hours which normalized most of the timestamp issues mentioned in /#2 above. This allowed us to arrive at the below ranking of station/time block combinations.
+With the data cleaned, we bucketed records into overlapping time blocks of *six* hours which normalized most of the timestamp issues mentioned in \#2 above. This allowed us to arrive at the below ranking of station/time block combinations.
 
 ##### Ranked Ridership by Time Block and Subway Station #####
 ![Ranked Ridership by Time Block and Subway Station](https://github.com/reichsmarc/reichsmarc.github.io/blob/master/images/relativeridership.png?raw=true)
