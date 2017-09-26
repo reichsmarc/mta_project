@@ -32,9 +32,7 @@ WomenTechWomenYes mentioned in the prompt that canvassing teams in prior years w
 We used *Built in NYC*'s [list of the top 50 NYC startups](http://www.builtinnyc.com/2017/01/06/50-new-york-startups-watch-2017) as a proxy for the top tech employers in New York, starting by locating the latitude and longitude for each based on their addresses.
 
 ### Step 2: Mapping Companies & Constraining Search Area
-##### Top 50 Startups, 2017 #####
-##### Built in NYC ####
-###### via gmaps #####
+##### Top 50 Startups, 2017; *Built in NYC* (via *gmaps*) #####
 
 ![Built in NYC - Top 50 Startups, 2017](https://github.com/reichsmarc/reichsmarc.github.io/blob/master/images/companymap.png?raw=true)
 
