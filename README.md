@@ -1,7 +1,7 @@
 # Project \#1 - MTA Turnstile Data Analysis
 ---
 
-Our first project at the Metis Data Science Bootcamp involved analyzing turnstile entry/exit data for the NYC subway system to optimize canvasser placement in order to promote an upcoming event.
+Our first project (and only team project) at the Metis Data Science Bootcamp involved analyzing turnstile entry/exit data for the NYC subway system to optimize canvasser placement in order to promote an upcoming event.
 
 ## Prompt
 Our client WomenTechWomenYes (WTWY), a fictional non-profit in New York dedicated to increasing the participation of women in the technology sector, is looking to promote their annual tech gala. WTWY employs 'street teams' of canvassers who approach people at entrances to NYC subways in an effort to collect their email addresses and send them free tickets to the gala. Importantly, WTWY is looking for people who are passionate about tech, and/or those who are able to donate to support the efforts of the organization.
